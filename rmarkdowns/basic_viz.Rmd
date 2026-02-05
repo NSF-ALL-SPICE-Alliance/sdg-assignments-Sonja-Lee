@@ -58,7 +58,7 @@ sdr_data <- read_csv(here("data/SDR-2023-Data.csv"))
 Use the `clean_names` function from the janitor package to clean up the column names of our dataframe. 
 
 ```{r}
-sdr_data <- sdr_data %>% 
+ sdr_data <- sdr_data %>% 
   clean_names()
 ```
 
